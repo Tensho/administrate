@@ -34,6 +34,6 @@ as well as a link to its edit page.
     <dt class="attribute-label"><%= attribute.name.titleize %></dt>
 
     <dd class="attribute-data attribute-data--<%=attribute.html_class%>"
-        ><%= render_field attribute %></dd>
+        ><%= render_field attribute, page.resource %></dd>
   <% end %>
 </dl>
